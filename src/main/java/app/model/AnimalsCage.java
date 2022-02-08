@@ -10,7 +10,7 @@ public class AnimalsCage {
     @Autowired
     @Qualifier("dog")
     private Animal animal;
-
+    @Qualifier("timer")
     public void whatAnimalSay() {
         System.out.println("Say:");
         System.out.println(animal.toString());
